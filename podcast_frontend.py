@@ -1,4 +1,4 @@
-# Modified code
+# Original code
 
 def main():
     st.title("Newsletter Dashboard")
@@ -30,12 +30,12 @@ def main():
         # Display the podcast summary and the cover image in a side-by-side layout
         col1, col2 = st.columns(2)
 
-        with left_column:
+        with col1:
             # Display the podcast episode summary
             st.subheader("Podcast Episode Summary")
             st.write(podcast_info['podcast_summary'])
 
-        with right_column:
+        with col2:
             # Display the podcast guest
             st.subheader("Podcast Guest")
             st.write(podcast_info['podcast_guest']['name'])
