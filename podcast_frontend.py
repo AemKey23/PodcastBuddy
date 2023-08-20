@@ -45,15 +45,7 @@ def main():
             st.write(podcast_info['podcast_guest']['name'])
 
         with col4:
-           # st.subheader("Organisation")
-            st.subheader(
-                "Organisation",
-                style={
-                    'color': 'red',
-                    'font-weight': 'bold'
-                }
-            )
-
+            st.subheader("Organisation")
             st.write(podcast_info["podcast_guest"]['org'])
 
         # Display the five key moments
