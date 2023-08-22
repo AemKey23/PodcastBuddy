@@ -4,6 +4,106 @@ import json
 import os
 
 def main():
+
+    # Inject custom CSS to set the background color
+    st.markdown(
+        """
+        <style>
+       /* The main content area */
+        .main .block-container {
+            background-color: #206579 !important;
+            color : #fff !important;
+        }
+
+        /* The background of the entire body */
+        body {
+           background-color: #ec864b;
+        }
+
+         /* Applying background color to the header */
+        header[data-testid="stHeader"] {
+        background-color: #f7ae52 !important;
+        }
+
+        /* Your identified class from inspect element */
+        .css-uf99v8 {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            overflow: auto;
+            align-items: center;
+            background-color: #f7ae52;
+        }
+
+        /* Making the content and sidebar background completely opaque */
+        div.stButton > button:first-child {
+            background-color: #206579;
+            color : #fff !important;
+            border : none;
+           
+        }
+        div[data-baseweb="select"] > div {
+            background-color: #206579 ;
+            color : #fff;
+          
+        }
+
+        h1{
+            color : #ec864b;
+        }
+
+        h2 {
+            color : #7e203b
+        }
+
+        h3 {
+            color : #fff
+        }
+
+        p {
+            color : #fff;
+        }
+       
+        /* Remove padding/margin from top element in the main section */
+        .main .block-container:first-child {
+            margin-top: 0 !important;
+            padding-top: 0 !important;
+        }
+
+        /* Adjust the image styling */
+        stImage img {
+            display: block;
+            margin: 0 auto;
+            padding: 0;
+            border: none;
+           
+        }
+
+        .css-6qob1r.e1fqkh3o3 {
+        background-color: #f7ae52;
+        color: #fff !important;
+        }
+       
+        .css-6qob1r.eczjsme3{
+        background-color: #f7ae52;
+        color: #fff !important;
+        }
+       
+
+        .sidebar.header{
+        color: #206579; /* Replace with your desired color */
+        }
+
+       
+        </style>
+        """,
+        unsafe_allow_html=True,
+    )
+
+
+
+
+    
     st.title("Newsletter Dashboard")
 
     available_podcast_info = create_dict_from_json_files('.')
