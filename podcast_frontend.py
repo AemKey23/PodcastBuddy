@@ -87,7 +87,8 @@ def main():
         }
        
         .css-6qob1r.eczjsme3{
-        background-color: #f7ae52;
+        /* background-color: #f7ae52; */
+        background-color: #95D7F7;
         color: #fff !important;
         }
        
