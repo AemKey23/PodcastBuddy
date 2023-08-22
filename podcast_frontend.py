@@ -141,7 +141,7 @@ def main():
         
 
        #  with col2:
-        st.image(podcast_info['podcast_details']['episode_image'], caption="Podcast Cover", width=250, use_column_width=True)
+        st.image(podcast_info['podcast_details']['episode_image'], caption="Podcast Cover", width=250, use_column_width=False)
         st.write(podcast_info['podcast_summary'])
 
         # Display the podcast guest and their details in a side-by-side layout
