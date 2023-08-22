@@ -11,7 +11,8 @@ def main():
         <style>
        /* The main content area */
         .main .block-container {
-            background-color: #206579 !important;
+          /*  background-color: #206579 !important; */
+            background-color: #4082ea !important;
             color : #fff !important;
         }
 
