@@ -61,7 +61,7 @@ def main():
         }
 
         h3 {
-            color : #E8E64D
+            color : #600302
         }
 
         p {
