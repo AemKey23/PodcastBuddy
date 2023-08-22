@@ -65,7 +65,7 @@ def main():
         }
 
         p {
-            color : #EEFA24;
+            color : #fff;
         }
        
         /* Remove padding/margin from top element in the main section */
