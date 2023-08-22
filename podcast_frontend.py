@@ -34,7 +34,8 @@ def main():
             width: 100%;
             overflow: auto;
             align-items: center;
-            background-color: #f7ae52;
+           /* background-color: #f7ae52; */
+            background-color: #D3E7F7;
         }
 
         /* Making the content and sidebar background completely opaque */
