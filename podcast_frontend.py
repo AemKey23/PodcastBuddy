@@ -24,7 +24,8 @@ def main():
 
          /* Applying background color to the header */
         header[data-testid="stHeader"] {
-        background-color: #f7ae52 !important;
+       /* background-color: #f7ae52 !important; */
+        background-color: #D3E7F7 !important;
         }
 
         /* Your identified class from inspect element */
