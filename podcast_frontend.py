@@ -57,7 +57,7 @@ def main():
         }
 
         h2 {
-            color : #7e203b
+            color : #FFFD55
         }
 
         h3 {
