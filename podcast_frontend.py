@@ -19,7 +19,7 @@ def main():
         /* The background of the entire body */
         body {
           /* background-color: #ec864b;*/
-           background-color: #B4EBEC;
+           background-color: #b4ebec;
         }
 
          /* Applying background color to the header */
